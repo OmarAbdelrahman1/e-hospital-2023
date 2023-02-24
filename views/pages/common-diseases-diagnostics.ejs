@@ -20,7 +20,7 @@
     
   <script>
     $(document).ready(function() {
-  $('#my-form').submit(function(event) {
+  $('#patientForm').submit(function(event) {
     event.preventDefault(); // Prevent default form submission
 
     // Get form data
@@ -54,7 +54,7 @@
 
   <div class="container">
  
-	<form id="patientForm" method="post" action="https://e860-174-116-62-228.ngrok.io/recordUpdate"   enctype="multipart/form-data"> 
+	<form id="patientForm" method="post" action="/recordUpdate"   enctype="multipart/form-data"> 
     
     <!-- <label for="common-diseases-diagnostics">Comman Disease Diagnostic Form:</label><br><br>
     <input type="common-diseases-diagnostics" value="Comman Disease Diagnostic Form"><br><br> -->
